@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCfyLG3Ru-ECVyI8FispiLxGaVohwCZ3k0'
+os.environ['GOOGLE_API_KEY'] = 
 
 llm = ChatGoogleGenerativeAI(model="models/gemini-1.5-flash", temperature=1)
 
